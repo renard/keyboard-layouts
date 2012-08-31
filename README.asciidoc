@@ -1,0 +1,187 @@
+// -*- adoc -*-
+= My Mac keyboard layout
+
+This some keyboard layouts I find more convenient than the default U.S. one.
+I do use
+http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele[Ukelele]
+to edit the keyboad layouts.
+
+There is currently only one mapping: +U.S. XCompose MBP+.
+
+To install a keyboad layout simply copy or link the +U.S. XCompose
+MPB.bundle+ directory to your +~/Library/Keyboard Layouts+ directory.
+
+You might need to restart your session for changes to be applied. Or at leat
+you must restart each application.
+
+== U.S. XCompose MPB
+
+This layout is based upon the classical +U.S.+ layout. Some states have been
+remapped or redefined. To enter a state, type the appropriate key
+combination.
+
+=== The acute state
+
+To enter that state: +⌥+ +'+
+
+* +⌥+ +'+ + +a+ = +á+
+* +⌥+ +'+ + +e+ = +é+
+* +⌥+ +'+ + +i+ = +í+
+* +⌥+ +'+ + +o+ = +ó+
+* +⌥+ +'+ + +u+ = +ú+
+* +⌥+ +'+ + +␣+ = +´+
+* +⌥+ +'+ + +⇧+ +a+ = +Á+
+* +⌥+ +'+ + +⇧+ +e+ = +É+
+* +⌥+ +'+ + +⇧+ +i+ = +Í+
+* +⌥+ +'+ + +⇧+ +o+ = +Ó+
+* +⌥+ +'+ + +⇧+ +u+ = +Ú+
+* +⌥+ +'+ + +⇧+ +␣+ = +´+
+
+
+=== The grave state
+
+To enter that state: +⌥+ +`+
+
+* +⌥+ +`+ + +a+ = +à+
+* +⌥+ +`+ + +e+ = +è+
+* +⌥+ +`+ + +i+ = +ì+
+* +⌥+ +`+ + +o+ = +ò+
+* +⌥+ +`+ + +u+ = +ù+
+// * +⌥+ +`+ + +␣+ = +`+
+* +⌥+ +`+ + +⇧+ +a+ = +À+
+* +⌥+ +`+ + +⇧+ +e+ = +È+
+* +⌥+ +`+ + +⇧+ +i+ = +Ì+
+* +⌥+ +`+ + +⇧+ +o+ = +Ò+
+* +⌥+ +`+ + +⇧+ +u+ = +Ù+
+//* +⌥+ +`+ + +⇧+ +␣+ = +`+
+
+=== The diaeresis state
+
+To enter that state: +⌥+ +"+
+
+* +⌥+ +"+ + +a+ = +ä+
+* +⌥+ +"+ + +e+ = +ë+
+* +⌥+ +"+ + +i+ = +ï+
+* +⌥+ +"+ + +o+ = +ö+
+* +⌥+ +"+ + +u+ = +ü+
+* +⌥+ +"+ + +␣+ = +¨+
+* +⌥+ +"+ + +⇧+ +a+ = +Ä+
+* +⌥+ +"+ + +⇧+ +e+ = +Ë+
+* +⌥+ +"+ + +⇧+ +i+ = +Ï+
+* +⌥+ +"+ + +⇧+ +o+ = +Ö+
+* +⌥+ +"+ + +⇧+ +u+ = +Ü+
+* +⌥+ +"+ + +⇧+ +␣+ = +¨+
+
+=== The ircumflex state
+
+To enter that state: +⌥+ +^+ (+⌥+ +⇧+ +6+)
+
+* +⌥+ +^+ + +a+ = +â+
+* +⌥+ +^+ + +e+ = +ê+
+* +⌥+ +^+ + +i+ = +î+
+* +⌥+ +^+ + +o+ = +ô+
+* +⌥+ +^+ + +u+ = +û+
+* +⌥+ +^+ + +␣+ = +ˆ+
+* +⌥+ +^+ + +⇧+ +a+ = +Â+
+* +⌥+ +^+ + +⇧+ +e+ = +Ê+
+* +⌥+ +^+ + +⇧+ +i+ = +Î+
+* +⌥+ +^+ + +⇧+ +o+ = +Ô+
+* +⌥+ +^+ + +⇧+ +u+ = +Û+
+* +⌥+ +^+ + +⇧+ +␣+ = +ˆ+
+
+
+=== The tilde state
+
+To enter that state: +⌥+ +~+ (+⌥+ +⇧+ +`+)
+
+* +⌥+ +~+ + +a+ = +ã+
+* +⌥+ +~+ + +O+ = +õ+
+* +⌥+ +~+ + +n+ = +ñ+
+* +⌥+ +~+ + +␣+ = +~+
+* +⌥+ +~+ + +⇧+ +a+ = +Ã+
+* +⌥+ +~+ + +⇧+ +e+ = +Õ+
+* +⌥+ +~+ + +⇧+ +i+ = +Ñ+
+* +⌥+ +~+ + +⇧+ +␣+ = +~+
+
+=== The a state
+
+To enter that state: +⌥+ +a+
+
+* +⌥+ +a+ + +a+ = +æ+
+* +⌥+ +a+ + +⇧+ +a+ = +Æ+
+
+
+=== The f state
+
+To enter that state: +⌥+ +f+
+
+* +⌥+ +f+ + +i+ = +ﬁ+
+* +⌥+ +f+ + +l+ = +ﬂ+
+
+=== The o state
+
+To enter that state: +⌥+ +o+
+
+* +⌥+ +o+ + +c+ = +©+
+* +⌥+ +o+ + +e+ = +œ+
+* +⌥+ +o+ + +f+ = +℉+
+* +⌥+ +o+ + +n+ = +№+
+* +⌥+ +o+ + +p+ = +℗+
+* +⌥+ +o+ + +r+ = +®+
+* +⌥+ +o+ + +⇧+ +e+ = +Œ+
+* +⌥+ +o+ + +⇧+ +c+ = +℃+
+
+=== The greek state
+
+To enter that state: +⌥+ +g+
+
+* +⌥+ +g+ + +a+ = +α+
+* +⌥+ +g+ + +b+ = +β+
+* +⌥+ +g+ + +c+ = +χ+
+* +⌥+ +g+ + +d+ = +δ+
+* +⌥+ +g+ + +e+ = +ε+
+* +⌥+ +g+ + +f+ = +φ+
+* +⌥+ +g+ + +g+ = +γ+
+* +⌥+ +g+ + +h+ = +η+
+* +⌥+ +g+ + +i+ = +ι+
+* +⌥+ +g+ + +k+ = +κ+
+* +⌥+ +g+ + +l+ = +λ+
+* +⌥+ +g+ + +m+ = +μ+
+* +⌥+ +g+ + +n+ = +ν+
+* +⌥+ +g+ + +o+ = +ο+
+* +⌥+ +g+ + +p+ = +π+
+* +⌥+ +g+ + +q+ = +θ+
+* +⌥+ +g+ + +r+ = +ρ+
+* +⌥+ +g+ + +s+ = +σ+
+* +⌥+ +g+ + +t+ = +τ+
+* +⌥+ +g+ + +u+ = +υ+
+* +⌥+ +g+ + +w+ = +ω+
+* +⌥+ +g+ + +x+ = +ξ+
+* +⌥+ +g+ + +y+ = +ψ+
+* +⌥+ +g+ + +z+ = +ζ+
+* +⌥+ +g+ + +⇧+ +a+ = +Α+
+* +⌥+ +g+ + +⇧+ +b+ = +Β+
+* +⌥+ +g+ + +⇧+ +c+ = +Χ+
+* +⌥+ +g+ + +⇧+ +d+ = +Δ+
+* +⌥+ +g+ + +⇧+ +e+ = +Ε+
+* +⌥+ +g+ + +⇧+ +f+ = +Φ+
+* +⌥+ +g+ + +⇧+ +g+ = +Γ+
+* +⌥+ +g+ + +⇧+ +h+ = +Η+
+* +⌥+ +g+ + +⇧+ +i+ = +Ι+
+* +⌥+ +g+ + +⇧+ +k+ = +Κ+
+* +⌥+ +g+ + +⇧+ +l+ = +Λ+
+* +⌥+ +g+ + +⇧+ +m+ = +Μ+
+* +⌥+ +g+ + +⇧+ +n+ = +Ν+
+* +⌥+ +g+ + +⇧+ +o+ = +Ο+
+* +⌥+ +g+ + +⇧+ +p+ = +Π+
+* +⌥+ +g+ + +⇧+ +q+ = +Θ+
+* +⌥+ +g+ + +⇧+ +r+ = +Ρ+
+* +⌥+ +g+ + +⇧+ +s+ = +Σ+
+* +⌥+ +g+ + +⇧+ +t+ = +Τ+
+* +⌥+ +g+ + +⇧+ +u+ = +Υ+
+* +⌥+ +g+ + +⇧+ +w+ = +Ω+
+* +⌥+ +g+ + +⇧+ +x+ = +Ξ+
+* +⌥+ +g+ + +⇧+ +y+ = +Ψ+
+* +⌥+ +g+ + +⇧+ +z+ = +Ζ+
+
+

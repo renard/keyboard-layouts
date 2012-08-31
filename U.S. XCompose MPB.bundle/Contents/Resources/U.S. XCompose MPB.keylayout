@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 2.2.1 on 2012-08-28 at 23:14 (GMT+02:00)-->
-<!--Last edited by Ukelele version 2.2.1 on 2012-08-29 at 02:02 (GMT+02:00)-->
-<keyboard group="0" id="14242" name="U.S. XCompose MPB" maxout="1">
+<!--Last edited by Ukelele version 2.2.1 on 2012-08-31 at 17:50 (GMT+02:00)-->
+<keyboard group="0" id="14242" name="U.S. XCompose MPB" maxout="2">
     <layouts>
         <layout first="0" last="17" modifiers="f4" mapSet="16c"/>
         <layout first="18" last="18" modifiers="f4" mapSet="984"/>
@@ -92,10 +92,10 @@
             <key code="45" action="16"/>
             <key code="46" action="m"/>
             <key code="47" output="."/>
-            <key code="48" output="&#x0009;"/>
+            <key code="48" action="&#x0009;"/>
             <key code="49" action="5"/>
             <key code="50" output="`"/>
-            <key code="51" output="&#x0008;"/>
+            <key code="51" action="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
             <key code="64" output="&#x0010;"/>
@@ -150,10 +150,10 @@
             <key code="120" output="&#x0010;"/>
             <key code="121" output="&#x000C;"/>
             <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
+            <key code="123" action="&#x001C;"/>
+            <key code="124" action="&#x001D;"/>
+            <key code="125" action="&#x001F;"/>
+            <key code="126" action="&#x001E;"/>
         </keyMap>
         <keyMap index="1">
             <key code="0" action="6"/>
@@ -207,7 +207,7 @@
             <key code="48" output="&#x0009;"/>
             <key code="49" action="5"/>
             <key code="50" output="~"/>
-            <key code="51" output="&#x0008;"/>
+            <key code="51" action="&#x0008; 1"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
             <key code="64" output="&#x0010;"/>
@@ -423,10 +423,10 @@
             <key code="40" output="˚"/>
             <key code="41" output="…"/>
             <key code="42" output="«"/>
-            <key code="43" output="≤"/>
+            <key code="43" action="≤"/>
             <key code="44" output="÷"/>
             <key code="45" action="4"/>
-            <key code="46" output="µ"/>
+            <key code="46" action="µ"/>
             <key code="47" output="≥"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
@@ -1038,6 +1038,34 @@
             <when state="none" output="%"/>
             <when state="o" output="❺"/>
         </action>
+        <action id="&#x001C;">
+            <when state="none" output="&#x001C;"/>
+            <when state="Mac Symbols" output="↖"/>
+        </action>
+        <action id="&#x001D;">
+            <when state="none" output="&#x001D;"/>
+            <when state="Mac Symbols" output=" ↘"/>
+        </action>
+        <action id="&#x001E;">
+            <when state="none" output="&#x001E;"/>
+            <when state="Mac Symbols" output="⇞"/>
+        </action>
+        <action id="&#x001F;">
+            <when state="none" output="&#x001F;"/>
+            <when state="Mac Symbols" output="⇟"/>
+        </action>
+        <action id="&#x0008;">
+            <when state="none" output="&#x0008;"/>
+            <when state="Mac Symbols" output="⌫"/>
+        </action>
+        <action id="&#x0008; 1">
+            <when state="none" output="&#x0008;"/>
+            <when state="Mac Symbols" output="⌦"/>
+        </action>
+        <action id="&#x0009;">
+            <when state="none" output="&#x0009;"/>
+            <when state="Mac Symbols" output=" ⇥"/>
+        </action>
         <action id="&#x0026;">
             <when state="none" output="&#x0026;"/>
             <when state="o" output="❼"/>
@@ -1183,6 +1211,7 @@
         </action>
         <action id="14">
             <when state="none" output="e"/>
+            <when state="Mac Symbols" output="⎋"/>
             <when state="a" output="æ"/>
             <when state="acute" output="é"/>
             <when state="diaeresis" output="ë"/>
@@ -1208,6 +1237,7 @@
         </action>
         <action id="17">
             <when state="none" output="o"/>
+            <when state="Mac Symbols" output="⌥"/>
             <when state="acute" output="ó"/>
             <when state="diaeresis" output="ö"/>
             <when state="grave" output="ò"/>
@@ -1314,6 +1344,7 @@
         </action>
         <action id="c">
             <when state="none" output="c"/>
+            <when state="comma" output="ç"/>
             <when state="greek" output="χ"/>
             <when state="o" output="©"/>
         </action>
@@ -1378,6 +1409,7 @@
         </action>
         <action id="x">
             <when state="none" output="x"/>
+            <when state="Mac Symbols" output="⌘"/>
             <when state="greek" output="ξ"/>
         </action>
         <action id="z">
@@ -1386,6 +1418,9 @@
         </action>
         <action id="©">
             <when state="none" next="greek"/>
+        </action>
+        <action id="µ">
+            <when state="none" next="Mac Symbols"/>
         </action>
         <action id="Æ">
             <when state="none" next="diaeresis"/>
@@ -1402,13 +1437,18 @@
         <action id="ƒ">
             <when state="none" next="f"/>
         </action>
+        <action id="≤">
+            <when state="none" next="comma"/>
+        </action>
         <action id="ﬂ">
             <when state="none" next="ircumflex"/>
         </action>
     </actions>
     <terminators>
+        <when state="Mac Symbols" output="µ"/>
         <when state="a" output="a"/>
         <when state="acute" output="´"/>
+        <when state="comma" output=","/>
         <when state="diaeresis" output="¨"/>
         <when state="f" output="f"/>
         <when state="grave" output="`"/>
