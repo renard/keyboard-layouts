@@ -131,6 +131,15 @@ To enter that state: +⌥+ +o+
 * +⌥+ +o+ + +⇧+ +e+ = +Œ+
 * +⌥+ +o+ + +⇧+ +c+ = +℃+
 
+
+=== The comma state
+
+To enter that state: +⌥+ +,+
+
+* +⌥+ +,+ + +c+ = +ç+
+* +⌥+ +,+ + +C+ = +Ç+
+
+
 === The greek state
 
 To enter that state: +⌥+ +g+
